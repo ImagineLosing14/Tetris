@@ -1,6 +1,3 @@
-run: tetris
-	./tetris
-
 tetris: src/draw.o src/game.o src/piece.o main.o
 	gcc $^ -o $@ -lncurses
 
