@@ -10,8 +10,8 @@ typedef struct {
 #define ROWS 20
 #define COLS 10
 
-void rotate_piece(Tetromino *p,int board[ROWS][COLS];);
+void rotate_piece(Tetromino *p,int board[ROWS][COLS]);
 Tetromino generate_random_piece();
-Tetromino set_piece();
+Tetromino set_piece(int type);
 
 #endif
