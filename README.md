@@ -4,14 +4,14 @@
 
 
 ## INSTALLATION
- #LINUX
+ LINUX:
  sudo apt-get install libncurses5-dev libncursesw5-dev
 
- #MACOS
+ MACOS:
  brew install ncurses
 
 
-#INSTALLATION AND BUILD
+##INSTALLATION AND BUILD
 git clone https://github.com/yourusername/tetris.git
 cd tetris
 
