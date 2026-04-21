@@ -11,7 +11,7 @@
  brew install ncurses
 
 
-##INSTALLATION AND BUILD
+## INSTALLATION AND BUILD
 git clone https://github.com/yourusername/tetris.git
 cd tetris
 
