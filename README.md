@@ -18,4 +18,3 @@ cd tetris
 
 ## Build & Run
 make
-./tetris
