@@ -345,8 +345,8 @@ void draw_leaderboard(){
             attron(COLOR_PAIR(i+9));
         }
         sprintf(tempstring,"%d",scores[i]);
-        mvprintw(mid_y + 2 + i, mid_x - 7, names[i]);
-        mvprintw(mid_y + 2 + i, mid_x+20, tempstring);
+        mvprintw(mid_y + 2 + i, mid_x - 7, "%s", names[i]);
+        mvprintw(mid_y + 2 + i, mid_x+20, "%s", tempstring);
         if(i<=2){
             attroff(COLOR_PAIR(i+9));
         }
